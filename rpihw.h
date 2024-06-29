@@ -42,11 +42,11 @@ typedef struct {
     uint32_t hwver;
     uint32_t periph_base;
     uint32_t videocore_base;
-    char* desc;
+    char *desc;
 } rpi_hw_t;
 
 
-const rpi_hw_t* rpi_hw_detect(void);
+const rpi_hw_t *rpi_hw_detect(void);
 
 
 #endif /* __RPIHW_H__ */
